@@ -6,10 +6,19 @@ body {
 }
 
 .button {
+	/* Position the button in the middle of the page */
+	/* position: absolute;
+	    top: 50%; */
 	background: coral;
 	padding: 1em 2em;
 	color: #fff;
 	border: 0;
+	font-style: italic;
+	font-size: 0.875em;
+}
+
+.centerButton {
+	text-align: center;
 }
 
 .button:hover {
